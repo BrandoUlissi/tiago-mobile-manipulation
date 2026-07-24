@@ -1,0 +1,19 @@
+# ROS 2 / colcon build artifacts — regenerable, machine-specific, never committed
+build/
+install/
+log/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.egg-info/
+
+# Editor / OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
+
+# Note: yolov5s.pt weights ARE committed on purpose, so the truck project runs
+# offline without fetching them from torch.hub on first launch.
